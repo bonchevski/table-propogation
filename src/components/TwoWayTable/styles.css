@@ -24,4 +24,19 @@ table {
   button:hover {
     text-decoration: underline;
   }
-  
+  /* components/TwoWayTable/styles.css */
+/* Add any component-specific styles here */
+
+/* Example: Style buttons */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+/* Indicate disabled input fields */
+input:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
